@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 
-# ─── Локалізація ───────────────────────────────────────────────────────────────
+# ─── Локалізація / Localiation ───────────────────────────────────────────────────────────────
 LANG = {
     "en": {
         "title": "PyInstaller Command Generator",
@@ -562,4 +562,5 @@ class App(ctk.CTk):
 
 if __name__ == "__main__":
     app = App()
+
     app.mainloop()
